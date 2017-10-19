@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    RED.nodes.registerType('udmx',{
+        category: 'output',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        icon: "light.png",
+	align: 'right',
+        label: function() {
+            return this.name||"udmx";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="udmx">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="udmx">
+    <p>This node looks for a UDMX dongle with USB ID 16c0:05dc and allows a single DMX channel to be set to a value.</p>
+    <p>Set msg.topic to the DMX channel (1-512) and msg.payload to the value (0-255).</p>
+    <p>Restart node-red after inserting dongle to ensure it is detected</p>
+</script>
