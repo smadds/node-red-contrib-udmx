@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-udmx",
+  "version": "0.1.0",
+  "description": "A node for outputting DMX through a USB dongle",
+  "main": "udmx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smadds/node-red-contrib-udmx.git"
+  },
+  "keywords": [
+    "dmx"
+  ],
+  "author": "Simon Maddox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smadds/node-red-contrib-udmx/issues"
+  },
+  "homepage": "https://github.com/smadds/node-red-contrib-udmx#readme"
+}
