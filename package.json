@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/smadds/node-red-contrib-udmx.git"
   },
+  "dependencies": {
+    "usb": "^1.3.0"
+  },
   "keywords": [
     "dmx",
    "node-red"
