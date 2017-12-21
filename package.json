@@ -17,7 +17,7 @@
     "nodes": {
       "udmx": "udmx.js"
     }
-  }
+  },
   "keywords": [
     "dmx",
     "node-red"
