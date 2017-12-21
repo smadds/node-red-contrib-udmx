@@ -16,6 +16,7 @@ In your .node-red folder run:
 then restart the node-red service. 
 
 ## Usage
+
 Set msg.topic to the DMX channel (1-512) and msg.payload to the value (0-255).
 
 ## Tips
