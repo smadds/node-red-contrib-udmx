@@ -13,9 +13,14 @@
   "dependencies": {
     "usb": "^1.3.0"
   },
+  "node-red": {
+    "nodes": {
+      "udmx": "udmx.js"
+    }
+  }
   "keywords": [
     "dmx",
-   "node-red"
+    "node-red"
   ],
   "author": "Simon Maddox",
   "license": "ISC",
