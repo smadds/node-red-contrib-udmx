@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-udmx",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A node for outputting DMX through a USB dongle",
   "main": "udmx.js",
   "scripts": {
@@ -19,7 +19,6 @@
     }
   },
   "keywords": [
-    "dmx",
     "node-red"
   ],
   "author": "Simon Maddox",
