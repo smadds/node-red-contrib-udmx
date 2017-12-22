@@ -22,7 +22,7 @@
     "node-red"
   ],
   "author": "Simon Maddox",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/smadds/node-red-contrib-udmx/issues"
   },
