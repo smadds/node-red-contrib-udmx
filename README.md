@@ -10,7 +10,8 @@ It works with the Chinese usb to DMX adapters readily available (e.g. search eba
 ## Installation
 Use the 'Manage Palette' option from the Node-Red admin panel, then search from the 'Install' tab.
 
-If not found, you can intall manually:
+If not found, you can install manually:
+
 In your .node-red folder run:
 `npm i node-red-contrib-udmx`
 then restart the node-red service. 
