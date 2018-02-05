@@ -24,4 +24,4 @@ Set msg.topic to the DMX channel (1-512) and msg.payload to the value (0-255).
 * Restart node-red after inserting dongle to ensure it is detected
 
 ## Known Issues
-* Occasional "Error: LIBUSB_TRANSFER_OVERFLOW" errors appearing on some installations
+
