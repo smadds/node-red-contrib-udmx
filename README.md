@@ -24,4 +24,5 @@ Set msg.topic to the DMX channel (1-512) and msg.payload to the value (0-255).
 * Restart node-red after inserting dongle to ensure it is detected
 
 ## Known Issues
+* The dependency node-usb requires a library installing first on linux OS (inc. Raspberry Pi). Full details under Installation here: https://github.com/tessel/node-usb#readme. Be sure to do this before trying to install UDMX. 
 
